@@ -1,0 +1,67 @@
+#
+# BACKEND
+#
+
+# compiled output
+/dist
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+coverage
+.nyc_output
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#
+# FRONTEND
+#
+
+/galery-frontend/.DS_Store
+/galery-frontend/node_modules
+/galery-frontend/dist
+
+
+# local env files
+/galery-frontend/.env.local
+/galery-frontend/.env.*.local
+
+# Log files
+/galery-frontend/npm-debug.log*
+/galery-frontend/yarn-debug.log*
+/galery-frontend/yarn-error.log*
+/galery-frontend/pnpm-debug.log*
+
+# Editor directories and files
+/galery-frontend/.idea
+/galery-frontend/.vscode
+/galery-frontend/*.suo
+/galery-frontend/*.ntvs*
+/galery-frontend/*.njsproj
+/galery-frontend/*.sln
+/galery-frontend/*.sw?
